@@ -1,7 +1,7 @@
 from rest_framework import viewsets, routers
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from django.urls import reverse
+from rest_framework.reverse import reverse
 from .models import User, Team, Activity, Leaderboard, Workout
 from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, LeaderboardSerializer, WorkoutSerializer
 
